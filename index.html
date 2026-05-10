@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple, modern website framework">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact" class="btn btn-primary">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-badges fade-in-up">
+                        <span class="hero-badge">Central Luzon State University</span>
+                    </div>
+                    <h1 class="fade-in-up">Jeffrey Bautista</h1>
+                    <p class="fade-in-up delay-1">A student studying BS in Information and Technology majoring in system Architecture</p>
+
+                    <div class="hero-actions fade-in-up delay-2">
+                        <a href="#features" class="btn btn-primary">View Projects</a>
+                        <a href="#about" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features section bg-light">
+            <div class="container">
+                <h2 class="section-title">Core Skills</h2>
+                <div class="grid-3">
+                    <div class="card">
+                        <div class="card-icon">📄</div>
+                        <h3>HTML</h3>
+                        <p>Semantic markup and structured content for modern, accessible webpages.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">🎨</div>
+                        <h3>CSS</h3>
+                        <p>Responsive layouts, animations, and polished visual design across screen sizes.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">🌐</div>
+                        <h3>Website Designing</h3>
+                        <p>User-centered layouts and modern UI patterns for beautiful, intuitive sites.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">🖌️</div>
+                        <h3>Figma</h3>
+                        <p>Interface mockups, prototypes, and design systems crafted for fast handoff.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">👽</div>
+                        <h3>Php</h3>
+                        <p>Website designing, Wordpress, Web Application Developer</p>
+                    </div>
+                        <div class="card">
+                        <div class="card-icon">📶</div>
+                        <h3>Networking</h3>
+                        <p>Cisco certified Student, Networking meshing, Firewall and Data Protection.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header" style="text-align: center; max-width: 900px; margin: 0 auto;">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p style="font-size: 1.05rem; color: var(--clr-text-light); margin-top: 1rem;">
+                        A selection of projects that showcase my skills in web design, development, and creative problem-solving. Each project highlights a unique aspect of my expertise and passion for crafting engaging digital experiences.
+                    </p>
+                </div>
+                <div class="project-grid" style="margin-top: 2rem;">
+                    <article class="card project-card">
+                        <div class="project-card-image project-image-app">
+                            <img src="project1.png" alt="Quick Clerk project screenshot">
+                            <span class="project-card-label">App Designing</span>
+                        </div>
+                        <div class="project-card-meta">
+                            <h3>Quick Clerk</h3>
+                            <p>Easy to use POS system for elderly users and a quick way to streamline small stores in urban areas.</p>
+                            <div class="project-card-chips">
+                                <span class="project-card-chip">Figma</span>
+                                <span class="project-card-chip">Wireframing</span>
+                                <span class="project-card-chip">Creative Innovation</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card project-card">
+                        <div class="project-card-image project-image-backend">
+                            <img src="project2.png" alt="CRUD Functions project screenshot">
+                            <span class="project-card-label">Backend Study</span>
+                        </div>
+                        <div class="project-card-meta">
+                            <h3>CRUD Functions</h3>
+                            <p>Utilization of CRUD functions via PHP and activity tracking for robust database-driven interactions.</p>
+                            <div class="project-card-chips">
+                                <span class="project-card-chip">PHP</span>
+                                <span class="project-card-chip">CSS & HTML</span>
+                                <span class="project-card-chip">Practice</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card project-card">
+                        <div class="project-card-image project-image-website">
+                            <img src="project3.png" alt="CLSU Reimagine project screenshot">
+                            <span class="project-card-label">Website Redesign</span>
+                        </div>
+                        <div class="project-card-meta">
+                            <h3>CLSU Reimagine</h3>
+                            <p>Test of design and functionality by redesigning our school's official website for clearer navigation.</p>
+                            <div class="project-card-chips">
+                                <span class="project-card-chip">Digital Art</span>
+                                <span class="project-card-chip">Figma</span>
+                                <span class="project-card-chip">Wireframing</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card project-card">
+                        <div class="project-card-image project-image-gift">
+                            <img src="project4.png" alt="Birthday Website Gift screenshot">
+                            <span class="project-card-label">Website Development</span>
+                        </div>
+                        <div class="project-card-meta">
+                            <h3>Birthday Website Gift</h3>
+                            <p>A gallery-style website made for a friend's special day, built using HTML, CSS, and delightful animations.</p>
+                            <div class="project-card-chips">
+                                <span class="project-card-chip">HTML & CSS</span>
+                                <span class="project-card-chip">Website Deployment</span>
+                                <span class="project-card-chip">Figma</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="contact-box">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p class="contact-copy">Choose the best way to connect: browse the code, connect on LinkedIn, or send a quick email directly.</p>
+                    <div class="contact-actions">
+                        <a href="https://github.com/KiorIIIi" target="_blank" rel="noreferrer" class="btn btn-primary">GitHub</a>
+                        <a href="https://linkedin.com/in/jeffrey-bautista-589396292/?isSelfProfile=true" target="_blank" rel="noreferrer" class="btn btn-secondary">LinkedIn</a>
+                    </div>
+                    <form class="contact-form" action="mailto:your.email@example.com" method="post" enctype="text/plain">
+                        <label for="contact-email">Email</label>
+                        <input type="email" id="contact-email" name="email" placeholder="you@example.com" required>
+                        <label for="contact-message">Message</label>
+                        <textarea id="contact-message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h2>My portfolio</h2>
+                    <p>simple and elegant.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Kiorii Website test. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
